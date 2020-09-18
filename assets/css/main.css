@@ -2603,7 +2603,7 @@ input, select, textarea {
 		}
 
 		.grid .left-publi {
-			width: 7%;
+			width: 8%;
 			text-align: center;
 			padding-top: 0.3em;
 			display: flex;
@@ -2611,7 +2611,7 @@ input, select, textarea {
 		}
 
 		.grid .right-publi {
-			width: 93%;
+			width: 92%;
 			text-align: left;
 			padding: 0.35em 0.5em;
 		}
@@ -3270,6 +3270,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
+	/* Header */
+
+				#header h2 {
+					text-align: center;
+				}
+
 	}
 
 /* Small */
@@ -3320,6 +3326,10 @@ input, select, textarea {
 					font-size: 1.35em;
 				}
 
+					#header h2 {
+						text-align: center;
+					}
+
 		/* Footer */
 
 			#footer {
@@ -3348,6 +3358,32 @@ input, select, textarea {
 					margin-top: -1em;
 				}
 
+		/* Grid */
+
+		.grid .left-g {
+			width: 17%;
+		}
+
+		.grid .left-r {
+			width: 83%;
+		}
+
+		.grid .left-publi {
+			width: 10%;
+		}
+
+		.grid .right-publi {
+			width: 90%;
+		}
+
+		.grid .button-g {
+			font-size: 10px;
+		}
+
+		.grid img{
+			width: 4em;
+		}
+
 	}
 
 /* XSmall */
@@ -3363,6 +3399,10 @@ input, select, textarea {
 				#header h1 br {
 					display: none;
 				}
+
+					#header h2 {
+						text-align: center;
+					}
 
 		/* Footer */
 
@@ -3381,6 +3421,20 @@ input, select, textarea {
 				#footer .icons {
 					font-size: 0.8em;
 				}
+
+		/* Grid */
+
+		.grid .button-g {
+			font-size: 9px;
+		}
+
+		.grid .button-g.icon {
+			padding: 0 0.5em;
+		}
+
+		.grid img{
+			width: 3.5em;
+		}
 
 	}
 
