@@ -2596,6 +2596,12 @@ input, select, textarea {
 			padding-top: 0.5em;
 		}
 
+		.grid .left-g-sml {
+			width: 15%;
+			text-align: center;
+			padding-top: 0.25em;
+		}
+
 		.grid .right-g {
 			width: 85%;
 			text-align: left;
@@ -2640,8 +2646,13 @@ input, select, textarea {
 			color: #008080;
 		}
 
-		.grid img{
+		.grid .left-g img{
 			width: 4.5em;
+			height: auto;
+		}
+
+		.grid .left-g-sml img{
+			width: 3em;
 			height: auto;
 		}
 
